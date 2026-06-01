@@ -55,5 +55,5 @@ Add a small example CSV file inside a `sample-output` folder.
 Clone the repository:
 
 ```bash
-git clone https://github.com/ScottJRyves/project-ingress-news-data-pipeline.git
-cd project-ingress-news-data-pipeline
+git clone https://github.com/ScottJRyves/Project-Ingress.git
+cd Project-Ingress
