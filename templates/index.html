@@ -1,0 +1,57 @@
+﻿<!--
+Few tutorials learnt from, but made it for my own index page, same goes for app page.
+References:
+https://www.youtube.com/watch?v=zVjAA6UxvtU
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+https://stackoverflow.com/questions/45914872/vertically-center-text-in-bootstrap-carousel
+
+Free Background Author adapted changed and made it a looping video:
+https://www.pexels.com/video/animated-abstract-blue-glowing-line-particles-wave-dark-background-abstract-pattern-futuristic-hi-tech-particles-background-28561463/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Ingress</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<video autoplay muted loop id="background-video">
+    <source src="{{ url_for('static', filename='assets/background.mp4') }}" type="video/mp4">
+</video>
+
+<!-- Carousel for the display basically, with an interval of 2.5 seconds -->
+<div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+    <!-- Using bootstrap to center the text-->
+    <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                <h1>Project Ingress</h1>
+                <p>A Data Pipeline for News Analysis designed for researchers and analysts who need a fully
+                automated tool for Machine Learning.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                <h1>NLP Techniques</h1>
+                <p>Parts-of-Speech tagging, TF-IDF keyword extraction, and sentiment analysis tool.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                <h1>CSV Export</h1>
+                <p>Download your results as a structured CSV, ready for further research!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fixed-bottom text-center mb-4">
+    <a href="/app" class="btn btn-primary btn-lg">Get Started</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
