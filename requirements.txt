@@ -1,4 +1,5 @@
 Flask
+python-dotenv
 newspaper4k
 beautifulsoup4
 nltk
