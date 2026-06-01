@@ -207,9 +207,7 @@ Open the local Flask address shown in the terminal.
 
 A summary poster was created for the Abertay University End of Year Show, covering the project aim, architecture, evaluation results, limitations and future work.
 
-[View the full-resolution project poster](screenshots/project-poster.png)
-
-![Project Ingress poster](screenshots/project-poster.png)
+![Project Ingress poster](screenshots/project-poster.PNG)
 
 ## Limitations
 
