@@ -1,0 +1,7 @@
+Flask
+newspaper4k
+beautifulsoup4
+nltk
+textblob
+scikit-learn
+pandas
