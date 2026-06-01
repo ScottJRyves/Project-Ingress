@@ -18,7 +18,7 @@ The project was developed as my final-year computing artefact at Abertay Univers
 The application uses several Natural Language Processing techniques:
 
 - **Text pre-processing:** cleans article content before analysis
-- **TF-IDF keyword extraction:** identifies important keywords within the collected articles
+- **TF-IDF keyword extraction:** identifies prominent keywords and phrases within each article
 - **Sentiment analysis:** estimates the sentiment of article text
 - **Part-of-speech filtering:** improves sentiment analysis by focusing on selected word types
 
